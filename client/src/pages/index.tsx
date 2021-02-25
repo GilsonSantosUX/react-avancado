@@ -10,11 +10,15 @@ export default function Home({title = "React Avançado!"}:Props) {
   return (
     <>
       <Head >
-    <title>{title}</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-          <h2>Index</h2>
+      <header>
+          <h1>Bem-vindo a plataforma de games.</h1>
+          <p>Aqui sera uma listagem de conteúdo!</p>
+      </header>
+      <main>
+        Listagem aqui...
       </main>
     </>
   )
